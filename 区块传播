@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T06:18:53.578Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="26J9Ytx0Oo6o2wVPSVvd" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T06:21:14.166Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="z2EyPGEl_0TvhbInYYT6" version="13.10.2" type="github">
   <diagram id="b1vTbfETLTlSLTxvdhoG" name="Page-1">
     <mxGraphModel dx="1346" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -109,9 +109,6 @@
         <mxCell id="1Y6f14eAJNAHF7avkEha-52" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1;sketch=1;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="315.5" y="471" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="1Y6f14eAJNAHF7avkEha-64" value="区块哈希" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="-3" y="567" width="71" height="31" as="geometry" />
-        </mxCell>
         <mxCell id="1Y6f14eAJNAHF7avkEha-68" value="和黄色相连的节点" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=1;sketch=1;shadow=0;labelBackgroundColor=none;" vertex="1" parent="1">
           <mxGeometry x="2" y="389" width="55" height="55" as="geometry" />
         </mxCell>
@@ -163,26 +160,20 @@
             <mxPoint x="617" y="178.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="1Y6f14eAJNAHF7avkEha-100" value="区块哈希" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="237.5" y="522" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1Y6f14eAJNAHF7avkEha-101" value="区块哈希" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="316.5" y="546" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1Y6f14eAJNAHF7avkEha-102" value="区块哈希" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="260.5" y="449" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1Y6f14eAJNAHF7avkEha-103" value="区块哈希" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="392.5" y="475" width="50" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="1Y6f14eAJNAHF7avkEha-104" value="区块哈希" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#9673a6;strokeWidth=1;fillColor=#e1d5e7;" vertex="1" parent="1">
-          <mxGeometry x="392.5" y="522" width="50" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="1Y6f14eAJNAHF7avkEha-105" value="&lt;b&gt;https://github.com/blockchainGuide/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#0e8088;strokeWidth=1;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="585" y="306" width="219" height="48" as="geometry" />
         </mxCell>
         <mxCell id="1Y6f14eAJNAHF7avkEha-106" value="&lt;b&gt;https://mindcarver.cn/&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#0e8088;strokeWidth=1;fillColor=#b0e3e6;" vertex="1" parent="1">
           <mxGeometry x="582" y="556" width="219" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6f14eAJNAHF7avkEha-107" value="区块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="-8" y="566" width="71" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6f14eAJNAHF7avkEha-108" value="区块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="242" y="448" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="1Y6f14eAJNAHF7avkEha-109" value="区块" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;sketch=1;strokeColor=#82b366;strokeWidth=1;fillColor=#d5e8d4;" vertex="1" parent="1">
+          <mxGeometry x="346" y="445" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
