@@ -1,17 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2020-11-27T01:20:30.044Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="AQZmJljAB6J5cQ0IQXUf" version="13.10.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-27T01:53:31.494Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="sJ3pFNKIIJdFd5aBTP10" version="13.10.2" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="946" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="sEOq54cT88SUEh13bhpU-45" value="&lt;span&gt;protocolManager&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#6c8ebf;fillColor=#dae8fc;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="120" width="100" height="300" as="geometry" />
+          <mxGeometry x="160" y="120" width="100" height="620" as="geometry" />
         </mxCell>
         <mxCell id="sEOq54cT88SUEh13bhpU-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="sEOq54cT88SUEh13bhpU-45">
           <mxGeometry x="45" y="80" width="10" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="sEOq54cT88SUEh13bhpU-45">
+          <mxGeometry x="45" y="510" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-96" value="调用blockchain.InsertChain" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" edge="1" parent="sEOq54cT88SUEh13bhpU-45" target="sEOq54cT88SUEh13bhpU-90">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="60" y="570" as="sourcePoint" />
+            <mxPoint x="120" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sEOq54cT88SUEh13bhpU-47" value="&lt;span&gt;fetcher&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#36393d;fillColor=#ffff88;rounded=1;sketch=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="120" width="100" height="360" as="geometry" />
+          <mxGeometry x="350" y="120" width="100" height="560" as="geometry" />
         </mxCell>
         <mxCell id="sEOq54cT88SUEh13bhpU-74" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="sEOq54cT88SUEh13bhpU-47">
           <mxGeometry x="50" y="160" width="10" height="40" as="geometry" />
@@ -69,6 +78,51 @@
         <mxCell id="sEOq54cT88SUEh13bhpU-68" value="调用fetcher&amp;nbsp;&lt;span style=&quot;color: rgb(181 , 137 , 0) ; background-color: rgb(0 , 43 , 54) ; font-family: &amp;#34;menlo&amp;#34; ; font-size: 9pt&quot;&gt;Enqueue&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=1;exitY=0.95;" edge="1" source="sEOq54cT88SUEh13bhpU-66" parent="1" target="sEOq54cT88SUEh13bhpU-47">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="280" y="297" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-83" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="330" y="510" width="210" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-84" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="550" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-85" value="f.insert" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="sEOq54cT88SUEh13bhpU-84" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="530" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-88" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+          <mxGeometry x="400" y="620" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-89" value="f.insertChain" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="sEOq54cT88SUEh13bhpU-88" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="405" y="600" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="430" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-90" value="blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;sketch=1;strokeColor=#36393d;fillColor=#ffcccc;" vertex="1" parent="1">
+          <mxGeometry x="890" y="120" width="100" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="sEOq54cT88SUEh13bhpU-90">
+          <mxGeometry x="45" y="540" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-98" value="bc.insertChain" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="sEOq54cT88SUEh13bhpU-97" parent="sEOq54cT88SUEh13bhpU-90">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="520" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="75" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sEOq54cT88SUEh13bhpU-91" value="调用protocolManager" style="html=1;verticalAlign=bottom;startArrow=circle;startFill=1;endArrow=open;startSize=6;endSize=8;exitX=-0.2;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="sEOq54cT88SUEh13bhpU-88" target="sEOq54cT88SUEh13bhpU-45">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="310" y="630" as="sourcePoint" />
+            <mxPoint x="310" y="600" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
