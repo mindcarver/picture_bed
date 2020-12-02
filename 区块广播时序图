@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T02:16:12.913Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="wViti51Z2R0vd5hPMkNd" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T02:22:11.455Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="MRmyXZu26lb63-azmmC0" version="13.10.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="1645" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,10 +13,10 @@
         <mxCell id="sEOq54cT88SUEh13bhpU-93" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="sEOq54cT88SUEh13bhpU-45" vertex="1">
           <mxGeometry x="45" y="510" width="10" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="sEOq54cT88SUEh13bhpU-96" value="调用blockchain.InsertChain" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="sEOq54cT88SUEh13bhpU-45" target="sEOq54cT88SUEh13bhpU-90" edge="1">
+        <mxCell id="sEOq54cT88SUEh13bhpU-96" value="调用blockchain.InsertChain" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;" parent="sEOq54cT88SUEh13bhpU-45" edge="1">
           <mxGeometry width="60" relative="1" as="geometry">
             <mxPoint x="60" y="570" as="sourcePoint" />
-            <mxPoint x="120" y="570" as="targetPoint" />
+            <mxPoint x="779.5" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="sEOq54cT88SUEh13bhpU-47" value="&lt;span&gt;fetcher&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;strokeColor=#36393d;fillColor=#ffff88;rounded=1;sketch=1;" parent="1" vertex="1">
@@ -102,20 +102,6 @@
             <mxPoint x="405" y="600" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="430" y="600" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="sEOq54cT88SUEh13bhpU-90" value="blockchain" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;sketch=1;strokeColor=#36393d;fillColor=#ffcccc;size=40;" parent="1" vertex="1">
-          <mxGeometry x="890" y="120" width="100" height="580" as="geometry" />
-        </mxCell>
-        <mxCell id="sEOq54cT88SUEh13bhpU-97" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;sketch=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="sEOq54cT88SUEh13bhpU-90" vertex="1">
-          <mxGeometry x="45" y="540" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="sEOq54cT88SUEh13bhpU-98" value="bc.insertChain" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" parent="sEOq54cT88SUEh13bhpU-90" target="sEOq54cT88SUEh13bhpU-97" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="50" y="520" as="sourcePoint" />
-            <Array as="points">
-              <mxPoint x="75" y="520" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -335,6 +321,12 @@
         </mxCell>
         <mxCell id="ivZ2nrBJm78rPEEr3uLq-30" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span style=&quot;font-size: 11px&quot;&gt;f.completing&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="1070" y="2400" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jHmGbI40y_JG_IyReSMZ-3" value="Peer A" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="780" y="30" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jHmGbI40y_JG_IyReSMZ-5" value="Peer B" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="30" width="95" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
