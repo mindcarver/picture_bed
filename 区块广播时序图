@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-02T01:16:30.266Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="YsJXe6e2_iJKJObhIGj-" version="13.10.4" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-02T01:20:33.894Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="6PYw1P_NdzWonsCS-ORo" version="13.10.4" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
-    <mxGraphModel dx="946" dy="472" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1113" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -289,6 +289,12 @@
         <mxCell id="Gx_eQB11y8lu9Nm57ohQ-41" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;gradientColor=none;" parent="sEOq54cT88SUEh13bhpU-161" vertex="1">
           <mxGeometry x="45" y="380" width="10" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="ivZ2nrBJm78rPEEr3uLq-27" value="fetcher.FilterBodies" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="sEOq54cT88SUEh13bhpU-161" target="sEOq54cT88SUEh13bhpU-162">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="55" y="570" as="sourcePoint" />
+            <mxPoint x="135" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="sEOq54cT88SUEh13bhpU-162" value="Fetcher" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;sketch=0;strokeColor=#6c8ebf;fillColor=#dae8fc;fontSize=13;" parent="1" vertex="1">
           <mxGeometry x="890" y="1850" width="100" height="690" as="geometry" />
         </mxCell>
@@ -429,6 +435,9 @@
         </mxCell>
         <mxCell id="ivZ2nrBJm78rPEEr3uLq-24" value="BlockBodiesMsg" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="2370" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ivZ2nrBJm78rPEEr3uLq-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=1;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="750" y="2380" width="10" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
