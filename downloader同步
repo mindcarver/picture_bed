@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2020-12-09T08:35:52.065Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="q2bvmVXGF4pI2T_2iaFX" version="13.11.0" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-09T08:40:40.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="EM9eEKn_NrCMfKIzzAjv" version="13.11.0" type="github">
   <diagram id="FA9yRUy87mqnG7rj3yGj" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="K9BZLRljeSUVZmoYllAU-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="70" y="200" width="560" height="10" as="geometry" />
+          <mxGeometry x="70" y="200" width="570" height="10" as="geometry" />
         </mxCell>
         <mxCell id="K9BZLRljeSUVZmoYllAU-8" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="70" y="140" width="510" height="60" as="geometry" />
@@ -48,6 +48,18 @@
         </mxCell>
         <mxCell id="K9BZLRljeSUVZmoYllAU-22" value="&lt;b&gt;192&lt;/b&gt;" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="520" y="185" width="30" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="K9BZLRljeSUVZmoYllAU-25" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;size=0.5;" vertex="1" parent="1">
+          <mxGeometry x="312.5" y="-10" width="85" height="565" as="geometry" />
+        </mxCell>
+        <mxCell id="K9BZLRljeSUVZmoYllAU-27" value="总共要获取的header个数" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="300" y="310" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9BZLRljeSUVZmoYllAU-28" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;helvetica&amp;#34; , &amp;#34;tahoma&amp;#34; , &amp;#34;arial&amp;#34; , &amp;#34;stxihei&amp;#34; , , &amp;#34;microsoft yahei&amp;#34; , , sans-serif ; font-size: 16px ; background-color: rgb(248 , 248 , 253)&quot;&gt;skeleton&lt;/span&gt;" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="300" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K9BZLRljeSUVZmoYllAU-29" value="100" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="595" y="195" width="30" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
