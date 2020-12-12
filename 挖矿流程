@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T02:59:06.575Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kSQm8f3c5eMOI4RAJfTb" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T03:00:51.540Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="SEHbS7Nntc2iF2i8mQY_" version="14.0.1" type="github">
   <diagram id="FxG2JAM8Cvou0FaS1yEl" name="Page-1">
     <mxGraphModel dx="546" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#D5E8D4" math="0" shadow="0">
       <root>
@@ -13,8 +13,14 @@
         <mxCell id="axqEnGAUc6qASpiuN_3n-3" value="newWorkCh" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1036" y="137" width="117" height="56" as="geometry" />
         </mxCell>
+        <mxCell id="6vLA9yEOslwisW7Joeox-44" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="axqEnGAUc6qASpiuN_3n-5" target="6vLA9yEOslwisW7Joeox-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="axqEnGAUc6qASpiuN_3n-5" value="chainSideCh" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1171" y="137" width="117" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLA9yEOslwisW7Joeox-45" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="axqEnGAUc6qASpiuN_3n-6" target="6vLA9yEOslwisW7Joeox-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="axqEnGAUc6qASpiuN_3n-6" value="txsCh" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="1302" y="137" width="117" height="56" as="geometry" />
@@ -91,7 +97,7 @@
         <mxCell id="6vLA9yEOslwisW7Joeox-17" value="commitUncles" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="777" y="326" width="102" height="38" as="geometry" />
         </mxCell>
-        <mxCell id="6vLA9yEOslwisW7Joeox-18" value="commitTransaction" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="6vLA9yEOslwisW7Joeox-18" value="commitTransactions" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="896" y="325" width="113" height="38" as="geometry" />
         </mxCell>
         <mxCell id="6vLA9yEOslwisW7Joeox-19" value="applyTransaction" style="shape=delay;whiteSpace=wrap;html=1;" vertex="1" parent="1">
