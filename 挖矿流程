@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-12T11:34:55.922Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="rZNYdFUEwnI8KGD78vBr" version="14.0.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-12T12:16:16.671Z" agent="5.0 (Macintosh; Intel Mac OS X 11_0_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NKHoj4qh2pfTegp_CJzk" version="14.0.1" type="github">
   <diagram id="FxG2JAM8Cvou0FaS1yEl" name="Page-1">
     <mxGraphModel dx="546" dy="929" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#D5E8D4" math="0" shadow="0">
       <root>
@@ -145,6 +145,18 @@
         </mxCell>
         <mxCell id="6vLA9yEOslwisW7Joeox-121" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="549" y="147" width="591" height="59" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLA9yEOslwisW7Joeox-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6vLA9yEOslwisW7Joeox-143" target="axqEnGAUc6qASpiuN_3n-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLA9yEOslwisW7Joeox-143" value="新区块出现" style="ellipse;html=1;shape=endState;strokeColor=#ff0000;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="687.25" y="-272" width="124.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLA9yEOslwisW7Joeox-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6vLA9yEOslwisW7Joeox-145" target="axqEnGAUc6qASpiuN_3n-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6vLA9yEOslwisW7Joeox-145" value="定时检查&lt;br&gt;是否有新交易&lt;br&gt;需要打包" style="ellipse;html=1;shape=endState;strokeColor=#ff0000;rounded=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="822.25" y="-272" width="124.5" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
