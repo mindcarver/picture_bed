@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-21T11:35:50.298Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="qJvth4EpSfNVZroAFfUZ" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-21T12:20:43.442Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="Q0cX54nF4GWaqxULjSUJ" version="14.1.1" type="github">
   <diagram id="FA9yRUy87mqnG7rj3yGj" name="Page-1">
     <mxGraphModel dx="1346" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF4C3" math="0" shadow="0">
       <root>
@@ -112,7 +112,7 @@
         <mxCell id="lzlMxY0Z6kU3H1e7s3TO-10" value="" style="endArrow=none;html=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="737" as="sourcePoint" />
-            <mxPoint x="634" y="737" as="targetPoint" />
+            <mxPoint x="754" y="737" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="lzlMxY0Z6kU3H1e7s3TO-25" value="FetchHeaders" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;glass=0;rounded=1;" vertex="1" parent="1">
@@ -148,6 +148,40 @@
         </mxCell>
         <mxCell id="lzlMxY0Z6kU3H1e7s3TO-36" value="远程节点们" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;glass=0;" vertex="1" parent="1">
           <mxGeometry x="217" y="1021" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-38" value="FetchBodies或者&#xa;FetchReceipts" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="372" y="761" width="140" height="176" as="geometry">
+            <mxRectangle x="-7" y="761" width="102" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-39" value="bodyWakeCh或者&#xa;ReceiptWakeCh&#xa;(等待headers数据)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-38">
+          <mxGeometry y="26" width="140" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-40" value="insertHeaderChain&#xa;(header写入数据库)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-38">
+          <mxGeometry y="75" width="140" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-41" value="queue.schedule&#xa;(准备下载body、receipt)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-38">
+          <mxGeometry y="113" width="140" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-42" value="通知下载body、receipt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;glass=0;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-38">
+          <mxGeometry y="150" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-43" value="processFullSyncContent" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="566" y="760" width="173" height="176" as="geometry">
+            <mxRectangle x="-7" y="761" width="102" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-44" value="bodyWakeCh或者&#xa;ReceiptWakeCh&#xa;(等待headers数据)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-43">
+          <mxGeometry y="26" width="173" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-45" value="insertHeaderChain&#xa;(header写入数据库)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-43">
+          <mxGeometry y="75" width="173" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-46" value="queue.schedule&#xa;(准备下载body、receipt)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-43">
+          <mxGeometry y="113" width="173" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="lzlMxY0Z6kU3H1e7s3TO-47" value="通知下载body、receipt" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=1;glass=0;" vertex="1" parent="lzlMxY0Z6kU3H1e7s3TO-43">
+          <mxGeometry y="150" width="173" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
