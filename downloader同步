@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T13:36:33.222Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5lvfkEmteXv2mqDAA7DP" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T13:49:22.170Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="g6brnbt6K-rNmbhHdg6M" version="14.1.1" type="github">
   <diagram id="FA9yRUy87mqnG7rj3yGj" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#FFF4C3" math="0" shadow="0">
       <root>
@@ -455,6 +455,52 @@
         </mxCell>
         <mxCell id="vtgeIrbD4Qpg8VBGlZgo-168" value="写入到数据库&lt;br&gt;importBlockResults" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="969.25" y="1249" width="109.5" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-171" value="" style="shape=loopLimit;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="879" y="1371" width="381" height="321" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-172" value="获取完整数据&lt;br&gt;queue.Results" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1011" y="1413" width="109.5" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-173" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;processFastSyncContent&lt;/p&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="994.25" y="1373" width="146" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-180" value="before pivot" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeColor=#EA6B66;" edge="1" parent="1" source="vtgeIrbD4Qpg8VBGlZgo-174" target="vtgeIrbD4Qpg8VBGlZgo-175">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-182" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#EA6B66;" edge="1" parent="1" source="vtgeIrbD4Qpg8VBGlZgo-174" target="vtgeIrbD4Qpg8VBGlZgo-176">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-184" value="pivot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vtgeIrbD4Qpg8VBGlZgo-182">
+          <mxGeometry x="-0.3996" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-183" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#EA6B66;" edge="1" parent="1" source="vtgeIrbD4Qpg8VBGlZgo-174" target="vtgeIrbD4Qpg8VBGlZgo-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-185" value="after pivot" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vtgeIrbD4Qpg8VBGlZgo-183">
+          <mxGeometry x="-0.4701" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-174" value="判定pivot" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1013.63" y="1475" width="104.25" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-175" value="写入数据库(无state)（commitFastSYncData）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="883" y="1526" width="128" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-176" value="下载state(syncState)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="883" y="1583" width="104" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-177" value="DeliverNodeData" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1006" y="1582" width="96" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-178" value="写入数据库(commitPivotBlock)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1124" y="1582" width="102" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="vtgeIrbD4Qpg8VBGlZgo-179" value="写入数据库（importBlockResults）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="883" y="1638" width="128" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
