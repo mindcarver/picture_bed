@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T01:24:32.484Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="bMdWoJPTs6o7wz-FKwF1" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T01:33:16.584Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="C0e4F2gRTj9E2GIcB3Sd" version="14.1.1" type="github">
   <diagram id="FA9yRUy87mqnG7rj3yGj" name="Page-1">
-    <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#7EA6E0" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#D5E8D4" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -488,6 +488,24 @@
         </mxCell>
         <mxCell id="vtgeIrbD4Qpg8VBGlZgo-188" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;strokeColor=#EA6B66;" parent="1" source="vtgeIrbD4Qpg8VBGlZgo-171" target="vtgeIrbD4Qpg8VBGlZgo-171" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-15" value="syncState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="168" y="2051" width="169" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-16" value="s := newStateSync(d, root)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="axTYSriuiiY0jrgnKtvr-15">
+          <mxGeometry y="26" width="169" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-17" value="d.stateSyncStart &lt;- s" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="axTYSriuiiY0jrgnKtvr-15">
+          <mxGeometry y="52" width="169" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-19" value="stateFetcher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="404" y="2051" width="169" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-20" value="s := &lt;-d.stateSyncStart" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="axTYSriuiiY0jrgnKtvr-19">
+          <mxGeometry y="26" width="169" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-21" value="d.runStateSync(next)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="axTYSriuiiY0jrgnKtvr-19">
+          <mxGeometry y="52" width="169" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
