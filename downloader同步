@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T01:33:16.584Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="C0e4F2gRTj9E2GIcB3Sd" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T01:37:10.963Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7wVFimC0DNwLc3WZpyoJ" version="14.1.1" type="github">
   <diagram id="FA9yRUy87mqnG7rj3yGj" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#D5E8D4" math="0" shadow="0">
       <root>
@@ -506,6 +506,12 @@
         </mxCell>
         <mxCell id="axTYSriuiiY0jrgnKtvr-21" value="d.runStateSync(next)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="axTYSriuiiY0jrgnKtvr-19">
           <mxGeometry y="52" width="169" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-22" value="stateFetcher" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="608" y="2051" width="169" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="axTYSriuiiY0jrgnKtvr-23" value="go s.run()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="axTYSriuiiY0jrgnKtvr-22">
+          <mxGeometry y="26" width="169" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
