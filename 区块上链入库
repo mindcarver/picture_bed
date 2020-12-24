@@ -1,166 +1,166 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T02:39:10.471Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="huc14LFGluHY3cnWihIO" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T02:39:25.135Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="gPtJK8iGy8tyomrIoim4" version="14.1.2" type="github">
   <diagram id="o5-2Ssh5yRqd9p9yxoGa" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jhhh8PDquixik3P3Pp8--1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--1" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="230" y="100" as="sourcePoint" />
             <mxPoint x="800" y="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;labelBorderColor=none;" edge="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;labelBorderColor=none;sketch=0;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="319" y="626" as="sourcePoint" />
             <mxPoint x="326" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--3" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="440" y="614" as="sourcePoint" />
             <mxPoint x="440" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--4" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="599" as="sourcePoint" />
             <mxPoint x="560" y="41" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--5" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="680" y="590" as="sourcePoint" />
             <mxPoint x="680" y="40" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--6" value="验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--6" value="验证" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="60" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--7" value="写入数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--7" value="写入数据库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="460" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--8" value="处理分叉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--8" value="处理分叉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="580" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--9" value="写入规范链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--9" value="写入规范链" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="710" y="60" width="70" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--10" target="jhhh8PDquixik3P3Pp8--11">
+        <mxCell id="jhhh8PDquixik3P3Pp8--12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--10" target="jhhh8PDquixik3P3Pp8--11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--10" value="block" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--10" value="block" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="60" width="60" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--11" value="insertChain" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--11" value="insertChain" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="40" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--13" value="engine.VerifyHeaders" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--13" value="engine.VerifyHeaders" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="120" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--14" value="ValidateBody" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--14" value="ValidateBody" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="160" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--15" value="VerifyUncles" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--15" value="VerifyUncles" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="200" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1" edge="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--16" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="800" y="585" as="sourcePoint" />
             <mxPoint x="800" y="49" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--17" value="执行交易" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--17" value="执行交易" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="60" width="60" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--18" target="jhhh8PDquixik3P3Pp8--20">
+        <mxCell id="jhhh8PDquixik3P3Pp8--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--18" target="jhhh8PDquixik3P3Pp8--20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--18" value="&amp;nbsp;bc.processor.Process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--18" value="&amp;nbsp;bc.processor.Process" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="120" width="125" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.582;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--19" target="jhhh8PDquixik3P3Pp8--29">
+        <mxCell id="jhhh8PDquixik3P3Pp8--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.582;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--19" target="jhhh8PDquixik3P3Pp8--29">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--19" value="bc.writeBlockWithState" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--19" value="bc.writeBlockWithState" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="140" width="130" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--20" value="将交易转换成&lt;br&gt;Message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--20" value="将交易转换成&lt;br&gt;Message" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="170" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--21" value="若是合约交易，&lt;br&gt;新建合约" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--21" value="若是合约交易，&lt;br&gt;新建合约" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="220" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--22" value="普通交易则增加&lt;br&gt;nonce" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--22" value="普通交易则增加&lt;br&gt;nonce" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="270" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--23" value="创建账户，执行&lt;br&gt;转账" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--23" value="创建账户，执行&lt;br&gt;转账" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="325" y="320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--24" value="或者创建合约&lt;br&gt;执行合约" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--24" value="或者创建合约&lt;br&gt;执行合约" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="370" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--25" value="将root hash写入&lt;br&gt;到状态树中" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--25" value="将root hash写入&lt;br&gt;到状态树中" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="420" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--26" value="创建收据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--26" value="创建收据" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="470" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--27" value="添加奖励" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--27" value="添加奖励" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="520" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--28" value="生成最终状态&lt;br&gt;树根" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--28" value="生成最终状态&lt;br&gt;树根" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#6c8ebf;fillColor=#dae8fc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="570" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--29" value="插入区块总难度" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--29" value="插入区块总难度" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="220" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--30" value="写入header和&lt;br&gt;body" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--30" value="写入header和&lt;br&gt;body" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="270" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--31" value="更新状态树" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--31" value="更新状态树" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--32" value="写入收据列表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--32" value="写入收据列表" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="370" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--33" value="插入规范链，处理分叉" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--33" value="插入规范链，处理分叉" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d6b656;fillColor=#fff2cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="420" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--34" value="获取分叉处的&lt;br&gt;区块号" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--34" value="获取分叉处的&lt;br&gt;区块号" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="220" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--35" value="收集旧链的交易&lt;br&gt;和日志" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--35" value="收集旧链的交易&lt;br&gt;和日志" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="270" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--36" value="将新链插入到&lt;br&gt;规范链" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--36" value="将新链插入到&lt;br&gt;规范链" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--37" value="找出新旧链的不重复交易" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--37" value="找出新旧链的不重复交易" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="370" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--38" value="发送事件和日志" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--38" value="发送事件和日志" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#9673a6;fillColor=#e1d5e7;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="420" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--39" value="更新&#39;h&#39;+number+&#39;n&#39;&lt;br&gt;的hash" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--39" value="更新&#39;h&#39;+number+&#39;n&#39;&lt;br&gt;的hash" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="220" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.627;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--40" target="jhhh8PDquixik3P3Pp8--34">
+        <mxCell id="jhhh8PDquixik3P3Pp8--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.627;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1;sketch=0;shadow=1;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--40" target="jhhh8PDquixik3P3Pp8--34">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--40" value="bc.reog" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--40" value="bc.reog" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="570" y="170" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--44" value="bc.insert" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--44" value="bc.insert" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="690" y="170" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--45" value="更新数据库的LastBlock的hash" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--45" value="更新数据库的LastBlock的hash" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d79b00;fillColor=#ffe6cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="270" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--46" value="更新currentBlock" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--46" value="更新currentBlock" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d79b00;fillColor=#ffe6cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="320" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jhhh8PDquixik3P3Pp8--47" value="设置headerChain的head为待插入区块" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="jhhh8PDquixik3P3Pp8--47" value="设置headerChain的head为待插入区块" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontStyle=1;strokeColor=#d79b00;fillColor=#ffe6cc;sketch=0;shadow=1;" vertex="1" parent="1">
           <mxGeometry x="680" y="370" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
