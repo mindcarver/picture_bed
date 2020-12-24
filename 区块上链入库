@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T02:31:23.686Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="yUCgGW4RJldyIolVFR_E" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T02:34:17.580Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="d6FgDElP-yRTkfhMIHok" version="14.1.2" type="github">
   <diagram id="o5-2Ssh5yRqd9p9yxoGa" name="Page-1">
-    <mxGraphModel dx="652" dy="365" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -73,8 +73,14 @@
         <mxCell id="jhhh8PDquixik3P3Pp8--17" value="执行交易" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="60" width="60" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--18" target="jhhh8PDquixik3P3Pp8--20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="jhhh8PDquixik3P3Pp8--18" value="&amp;nbsp;bc.processor.Process" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="320" y="120" width="125" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.582;entryY=0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--19" target="jhhh8PDquixik3P3Pp8--29">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="jhhh8PDquixik3P3Pp8--19" value="bc.writeBlockWithState" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="140" width="130" height="20" as="geometry" />
@@ -135,6 +141,24 @@
         </mxCell>
         <mxCell id="jhhh8PDquixik3P3Pp8--38" value="发送事件和日志" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="420" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--39" value="更新&#39;h&#39;+number+&#39;n&#39;&lt;br&gt;的hash" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="220" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.627;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jhhh8PDquixik3P3Pp8--40" target="jhhh8PDquixik3P3Pp8--34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--40" value="bc.reog" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--44" value="bc.insert" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="170" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--45" value="更新数据库的LastBlock的hash" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="270" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="jhhh8PDquixik3P3Pp8--46" value="更新currentBlock" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="320" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
