@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T01:57:48.956Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="7zJ5UYms6x4eph-E-KSj" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-25T02:21:32.105Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="sm6jscH17k_ifq-qcqqt" version="14.1.2" type="github">
   <diagram id="JbJOpYQLDo1UFIy_ReE3" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -80,6 +80,78 @@
         </mxCell>
         <mxCell id="0xvCFgxMTbg4vr06Ic8Y-47" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;quot;helvetica neue&amp;quot;&quot;&gt;将交易从queue扔到pending&amp;nbsp;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="203" y="395" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-56" target="0xvCFgxMTbg4vr06Ic8Y-58">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-56" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;&lt;b&gt;promoteExecutables&lt;/b&gt;&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=0;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="173" y="979" width="144" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-58" target="0xvCFgxMTbg4vr06Ic8Y-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-58" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;将queue中nonce低于当前账户的nonce的交易从all中删除&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1044" width="142" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-61" target="0xvCFgxMTbg4vr06Ic8Y-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-61" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;将queue中花费大于余额或者gas大于限制的交易从all中删除&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="176" y="1114" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.875;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-63" target="0xvCFgxMTbg4vr06Ic8Y-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-63" value="&lt;span&gt;交易升级&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="19" y="953.5" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-68" value="promoteTx" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;labelBorderColor=none;sketch=1;shadow=0;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="432" y="1059" width="241" height="181" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-69" value="1.将交易插入pending中，如果待插入&#xa;的交易nonce在pending列表中存在，&#xa;那么待插入的交易gas price大于或等于&#xa;原交易价值的110%（跟pricebump&#xa;设定有关）时，替换原交易" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="0xvCFgxMTbg4vr06Ic8Y-68">
+          <mxGeometry y="26" width="241" height="77" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-70" value="2.如果新交易替换了某个交易，&#xa;从all列表中删除老交易" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="0xvCFgxMTbg4vr06Ic8Y-68">
+          <mxGeometry y="103" width="241" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-71" value="3.最后更新一下all列表" style="text;strokeColor=#d6b656;fillColor=#fff2cc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="0xvCFgxMTbg4vr06Ic8Y-68">
+          <mxGeometry y="146" width="241" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-79" target="0xvCFgxMTbg4vr06Ic8Y-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-79" target="0xvCFgxMTbg4vr06Ic8Y-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-79" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;将所有可执行的交易从queue中移动到pending&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="175" y="1204" width="144" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-82" target="0xvCFgxMTbg4vr06Ic8Y-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-82" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;helvetica neue&amp;quot;;&quot;&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;quot;pingfang sc&amp;quot;&quot;&gt;如果非本地账户&lt;/span&gt;queue&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;quot;pingfang sc&amp;quot;&quot;&gt;大于限制&lt;/span&gt;&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;quot;pingfang sc&amp;quot;&quot;&gt;，从最后取出&lt;/span&gt;nonce&lt;span class=&quot;s1&quot; style=&quot;font-stretch: normal ; line-height: normal ; font-family: &amp;quot;pingfang sc&amp;quot;&quot;&gt;较大的交易进行&lt;/span&gt;remove&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="176" y="1272" width="143" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-83" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px; font-stretch: normal; font-size: 13px; line-height: normal; font-family: &amp;quot;pingfang sc&amp;quot;;&quot;&gt;如果队列中此账户的交易为空则删除此账户&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;labelBorderColor=none;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="173" y="1363" width="143" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-86" target="0xvCFgxMTbg4vr06Ic8Y-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-86" value="新交易" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="432" y="179" width="137" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-87" value="&lt;b&gt;pending&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="619" y="162" width="69" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shadow=0;" edge="1" parent="1" source="0xvCFgxMTbg4vr06Ic8Y-91" target="0xvCFgxMTbg4vr06Ic8Y-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-91" value="queue中的交易" style="ellipse;whiteSpace=wrap;html=1;shadow=0;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="421" y="965" width="137" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-92" value="&lt;b&gt;pending&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="608" y="948" width="69" height="81" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
