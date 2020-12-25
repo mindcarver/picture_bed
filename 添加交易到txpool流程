@@ -1,1 +1,34 @@
-<mxfile host="app.diagrams.net" modified="2020-12-25T01:27:00.552Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" version="14.1.2" etag="0VsNetP7NShoAo_m9rn1" type="github"><diagram id="JbJOpYQLDo1UFIy_ReE3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-12-25T01:38:04.483Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="5oEadJymWjF2sr1PBi6b" version="14.1.2" type="github">
+  <diagram id="JbJOpYQLDo1UFIy_ReE3" name="Page-1">
+    <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-2" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;addTxs&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="270" y="170" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-3" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;过滤池中已经存在的交易&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="230" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-4" value="&lt;p class=&quot;p1&quot; style=&quot;margin: 0px ; font-stretch: normal ; font-size: 13px ; line-height: normal ; font-family: &amp;#34;helvetica neue&amp;#34;&quot;&gt;将交易添加到队列中&lt;/p&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="300" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-5" value="&lt;span&gt;添加交易到txpool&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="145" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-6" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;left=0;right=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="370" y="295" width="420" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-10" value="丢弃已经收到过的交易" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="305" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-11" value="验证并丢弃未通过的交易" style="shape=ext;double=1;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="517" y="305" width="126" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0xvCFgxMTbg4vr06Ic8Y-12" value="" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="517" y="393" width="137" height="137" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
