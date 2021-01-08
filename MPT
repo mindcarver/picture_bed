@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T02:28:42.430Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="NixpaxVItEIrkSd9Nx5c" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-08T02:30:56.959Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="kTZgYob32RMcYgVOkiKR" version="14.1.8" type="github">
   <diagram id="UdwVVEmr5bUHLwcyHniN" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -350,7 +350,7 @@
           <mxGeometry x="68" y="1254" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mssd9V5UDvg_aWsaPHwd-42" value="在MPT中&lt;br&gt;的存储方式" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="74" y="1570" width="120" height="80" as="geometry" />
+          <mxGeometry x="265.25" y="1559" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mssd9V5UDvg_aWsaPHwd-43" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1642" width="395" height="66" as="geometry" />
@@ -411,6 +411,30 @@
         </mxCell>
         <mxCell id="mssd9V5UDvg_aWsaPHwd-61" value="og" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="376" y="1789" width="37" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-64" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="52.5" y="1862" width="262" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-65" value="fullnode1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="38.5" y="1869" width="94" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-66" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="135.5" y="1883" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-67" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="162.5" y="1883" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-68" value="e" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="189.5" y="1883" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-69" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="216.5" y="1883" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-70" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="243.5" y="1883" width="27" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-71" value="t" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="270.5" y="1883" width="27" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
