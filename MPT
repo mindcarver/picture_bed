@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-08T03:05:31.891Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="dN2P4vKoo1FK6TNwUqou" version="14.1.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-08T03:08:08.755Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nK3yqeRRlc5ZWphr6Ryu" version="14.1.8" type="github">
   <diagram id="UdwVVEmr5bUHLwcyHniN" name="Page-1">
     <mxGraphModel dx="1021" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -346,7 +346,7 @@
         <mxCell id="mssd9V5UDvg_aWsaPHwd-40" value="Value 6" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="712" y="1510" width="142" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="mssd9V5UDvg_aWsaPHwd-41" value="要存储的数据" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="mssd9V5UDvg_aWsaPHwd-41" value="要存储的数据" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="506" y="1272" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="mssd9V5UDvg_aWsaPHwd-42" value="在MPT中&lt;br&gt;的存储方式" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" vertex="1" parent="1">
