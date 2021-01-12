@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T06:39:28.069Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="WIuvEGUw-mAG4XMTQWwM" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T06:40:29.249Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="nxePDZc-z4ehiMOZQvP_" version="14.1.9" type="github">
   <diagram id="JS1-6WO4kX2g95NOCmkH" name="Page-1">
     <mxGraphModel dx="1002" dy="-1494" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -146,10 +146,7 @@
           <mxGeometry x="322.75" y="2614" width="316" height="58" as="geometry" />
         </mxCell>
         <mxCell id="Xvzv7RDtWJYXOhUXrxtw-48" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="88.5" y="3199" width="141" height="596" as="geometry" />
-        </mxCell>
-        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-49" value="Header" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="101" y="3119" width="126" height="44" as="geometry" />
+          <mxGeometry x="88.5" y="3158" width="141" height="637" as="geometry" />
         </mxCell>
         <mxCell id="Xvzv7RDtWJYXOhUXrxtw-50" value="ParentHash" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="123" y="3218" width="72" height="37" as="geometry" />
@@ -348,6 +345,9 @@
         </mxCell>
         <mxCell id="Xvzv7RDtWJYXOhUXrxtw-120" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="Xvzv7RDtWJYXOhUXrxtw-116" target="Xvzv7RDtWJYXOhUXrxtw-116">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-127" value="区块Header" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="113" y="3170" width="96" height="36" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
