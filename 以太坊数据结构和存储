@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-12T03:19:20.417Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="R-xXCTO1dQVy_U_P257S" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-12T03:24:42.118Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36" etag="1mYJPsDOsTCv-q1RaB7O" version="14.1.9" type="github">
   <diagram id="JS1-6WO4kX2g95NOCmkH" name="Page-1">
-    <mxGraphModel dx="946" dy="-697" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="-1528" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -195,6 +195,24 @@
         </mxCell>
         <mxCell id="Xvzv7RDtWJYXOhUXrxtw-64" value="Nonce" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontColor=#ffffff;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="522.75" y="3354" width="72" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="153.5" y="3535" width="158" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-66" value="账户状态 Account State" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="158" y="3549" width="144" height="15" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-68" value="nonce" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="172" y="3575" width="121" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-69" value="balance" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="172" y="3616" width="121" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-70" value="storageRoot" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="172" y="3657" width="121" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="Xvzv7RDtWJYXOhUXrxtw-71" value="codeHash" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="172" y="3698" width="121" height="24" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
