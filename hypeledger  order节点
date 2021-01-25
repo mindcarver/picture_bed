@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T03:15:22.980Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="H6TDqFttaUIZHjnKI2JT" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T03:17:53.754Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="UgjNExfpBptiGxsnZDYc" version="14.1.9" type="github">
   <diagram id="ON9svbhYTbgX4LovLP-B" name="Page-1">
     <mxGraphModel dx="946" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -139,11 +139,14 @@
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-54" value="调用消息处理器ProcessNormalMsg()过滤合法消息，并解析通道的最新配置序号configSeq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="79.5" y="1011" width="180" height="61" as="geometry" />
         </mxCell>
-        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-55" value="调用消息处理器ProcessNormalMsg()过滤合法消息，并解析通道的最新配置序号configSeq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="512" y="1009" width="180" height="61" as="geometry" />
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-55" value="调用消息处理器ProcessConfigUpdateMsg()过滤合法消息，并解析通道的配置交易消息config与最新的配置序号configSeq" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="501" y="1009" width="197" height="65" as="geometry" />
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-56" value="调用Order()方法构造新的普通交易消息，并发送给共识组件排序（这里只讨论kafka共识组件）" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="83" y="1082" width="180" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-57" value="调用Configure()方法构造新的通道配置消息，并发送给共识组件链对象排序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="501" y="1085" width="197" height="65" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
