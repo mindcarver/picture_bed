@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-23T07:06:49.668Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="vItuW1Mmgb_ivuNofwFL" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T03:05:25.074Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="VDS4E494iG98sxy_VF6A" version="14.1.9" type="github">
   <diagram id="ON9svbhYTbgX4LovLP-B" name="Page-1">
     <mxGraphModel dx="946" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,6 +114,18 @@
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-40" value="kafka" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="565.5" y="387" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-46" value="接收Broadcast服务请求，调用Handle方法处理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="671" width="252" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-47" value="调用Broadcast服务srv.Recv()监听提交的交易请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="228" y="737" width="252" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-48" value="调用BroadcastChannelSupport解析配置交易消息标志位与通道链支持对象作为消息处理器" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="228" y="803" width="252" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-49" value="调用WaitReady()，检查共识组件是否准备好接收新交易信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="230" y="869" width="252" height="42" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
