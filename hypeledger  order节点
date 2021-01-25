@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T03:05:25.074Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="VDS4E494iG98sxy_VF6A" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T03:06:33.470Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="PlrwMliA6mZ54P5B5k88" version="14.1.9" type="github">
   <diagram id="ON9svbhYTbgX4LovLP-B" name="Page-1">
-    <mxGraphModel dx="946" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="946" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,6 +126,9 @@
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-49" value="调用WaitReady()，检查共识组件是否准备好接收新交易信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="230" y="869" width="252" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-51" value="根据isConfig判断是否为配置交易消息" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="253" y="938" width="221.5" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
