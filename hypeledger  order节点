@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-25T03:27:40.222Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="nCsoBVVSV7ZBjbxPu2Kz" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-25T03:27:53.804Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="Zx_wSahGBIqH9zJoeRrf" version="14.1.9" type="github">
   <diagram id="ON9svbhYTbgX4LovLP-B" name="Page-1">
     <mxGraphModel dx="946" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -138,6 +138,12 @@
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-49" value="调用WaitReady()，检查共识组件是否准备好接收新交易信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="228" y="870" width="252" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Ij2T7dSA8iw-OSUrJOi8-51" target="Ij2T7dSA8iw-OSUrJOi8-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-78" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Ij2T7dSA8iw-OSUrJOi8-51" target="Ij2T7dSA8iw-OSUrJOi8-53">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-51" value="根据isConfig判断是否为配置交易消息" style="rhombus;whiteSpace=wrap;html=1;fillColor=none;gradientColor=none;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="243.25" y="933" width="221.5" height="78" as="geometry" />
