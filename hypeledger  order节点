@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-26T01:17:34.219Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="OXW1Z-VrwmgcaUvbxQ2-" version="14.1.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-26T01:18:49.900Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36" etag="IRASvSJEp96hV-rQM4AQ" version="14.1.9" type="github">
   <diagram id="ON9svbhYTbgX4LovLP-B" name="Page-1">
     <mxGraphModel dx="946" dy="563" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -227,6 +227,11 @@
             <mxPoint x="388" y="1630" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-106" style="edgeStyle=none;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;shadow=0;dashed=1;" edge="1" parent="1" source="Ij2T7dSA8iw-OSUrJOi8-81">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="1561" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-81" value="处理三种消息类型" style="rhombus;whiteSpace=wrap;html=1;shadow=0;fillColor=none;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="326.75" y="1525" width="123" height="72" as="geometry" />
         </mxCell>
@@ -235,6 +240,9 @@
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-82" value="KafkaMessage_TimeToCut" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="164" y="1549" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Ij2T7dSA8iw-OSUrJOi8-102" value="" style="edgeStyle=none;rounded=0;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;shadow=0;dashed=1;" edge="1" parent="1" source="Ij2T7dSA8iw-OSUrJOi8-83" target="Ij2T7dSA8iw-OSUrJOi8-93">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Ij2T7dSA8iw-OSUrJOi8-83" value="Kafka- Message_Regular" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="1">
           <mxGeometry x="368.25" y="1638" width="40" height="20" as="geometry" />
