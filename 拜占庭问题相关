@@ -1,1 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T07:54:05.186Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" version="14.4.2" etag="fio92_WTyXpksssog47l" type="github"><diagram id="bqIoz07S8d9AHL4Neplq">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-02-18T08:04:11.581Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="QWFfrQ2gv1Hfprl7Habk" version="14.4.2" type="github">
+  <diagram id="bqIoz07S8d9AHL4Neplq" name="Page-1">
+    <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-1" value="进攻" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="140" y="130" width="96" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-2" value="撤退" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="337" y="130" width="96" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.052;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-8" target="cuwKdxGBt73rqgIDRq8p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-8" value="善良将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="64" y="116" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="129" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-10" value="善良将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="175" y="26" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-11" value="善良将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="170" y="206" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-13" target="cuwKdxGBt73rqgIDRq8p-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-13" value="善良将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="370" y="24" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="389" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-14" value="善良将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="374" y="206" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="437" y="146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-15" value="善良将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="494" y="116" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.969;entryY=0.37;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-17" target="cuwKdxGBt73rqgIDRq8p-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontStyle=1" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="331" y="148" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-17" value="恶意将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="272" y="118" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-28" value="恶意将军分别发送进攻命令和撤退命令，&lt;br&gt;进攻的善良将军则会以为是4票，大于撤退的3票，&lt;br&gt;他们就会进攻，撤退的善良将军也会以为是4票，&lt;br&gt;他们就会撤退，则导致了最终的任务失败。" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="110" y="296" width="437" height="114" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
