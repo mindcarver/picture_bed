@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T08:33:59.641Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="hN9MbaKuAf8yvsGN9E3C" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T13:26:06.412Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="ORkPQ1BdTRn3MXxz17Y1" version="14.4.2" type="github">
   <diagram id="bqIoz07S8d9AHL4Neplq" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -64,6 +64,78 @@
         </mxCell>
         <mxCell id="cuwKdxGBt73rqgIDRq8p-17" value="恶意将军" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="568" y="117" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-36" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-32" target="cuwKdxGBt73rqgIDRq8p-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-37" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-32" target="cuwKdxGBt73rqgIDRq8p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-38" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-32" target="cuwKdxGBt73rqgIDRq8p-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-32" value="忠诚司令官" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="563" y="433" width="107" height="51" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-42" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-33" target="cuwKdxGBt73rqgIDRq8p-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-43" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-33" target="cuwKdxGBt73rqgIDRq8p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-33" value="忠诚将军A" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="385" y="539" width="87" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-46" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-34" target="cuwKdxGBt73rqgIDRq8p-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-47" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-34" target="cuwKdxGBt73rqgIDRq8p-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-34" value="忠诚将军B" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="571" y="602" width="87" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-50" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-35" target="cuwKdxGBt73rqgIDRq8p-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-51" value="撤退" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cuwKdxGBt73rqgIDRq8p-50">
+          <mxGeometry x="0.1747" y="-3" relative="1" as="geometry">
+            <mxPoint x="29.22" y="2.7800000000000002" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cuwKdxGBt73rqgIDRq8p-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="474" y="539" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-57" value="撤退" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="cuwKdxGBt73rqgIDRq8p-56">
+          <mxGeometry x="-0.3826" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-35" value="作恶将军C" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="772" y="539" width="87" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-39" value="进攻" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="485" y="476" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-40" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;进攻&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="614" y="494" width="44" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-41" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;进攻&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="476" width="44" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-44" value="进攻" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="532" y="541" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-45" value="进攻" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="507" y="584" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-48" value="进攻" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="418" y="602" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-49" value="进攻" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="688" y="581" width="34" height="18" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
