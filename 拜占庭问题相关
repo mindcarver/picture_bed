@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-18T13:26:18.475Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="DYGHXw6Oy3HIXdHL7Cr5" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-18T13:27:38.220Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="MQ3c3RuMO494x6uUm0n_" version="14.4.2" type="github">
   <diagram id="bqIoz07S8d9AHL4Neplq" name="Page-1">
     <mxGraphModel dx="946" dy="529" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -136,6 +136,9 @@
         </mxCell>
         <mxCell id="cuwKdxGBt73rqgIDRq8p-49" value="进攻" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="688" y="581" width="34" height="18" as="geometry" />
+        </mxCell>
+        <mxCell id="cuwKdxGBt73rqgIDRq8p-58" value="&lt;span style=&quot;color: rgb(61 , 70 , 77) ; font-family: &amp;quot;suxingme&amp;quot; , &amp;quot;helvetica&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;open sans&amp;quot; , &amp;quot;arial&amp;quot; , &amp;quot;pingfang sc&amp;quot; , &amp;quot;hiragino sans gb&amp;quot; , &amp;quot;source han sans cn&amp;quot; , &amp;quot;roboto&amp;quot; , &amp;quot;microsoft yahei&amp;quot; , sans-serif ; font-size: 14px ; letter-spacing: 0.64px ; background-color: rgb(255 , 255 , 255)&quot;&gt;m=1,n=4并且叛军不是司令官&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="517" y="702" width="205" height="27" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
