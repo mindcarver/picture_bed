@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-21T05:06:53.569Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="_pwoAm3ZHLJA27QqYZEI" version="14.4.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-02-21T05:16:59.589Z" agent="5.0 (Macintosh; Intel Mac OS X 11_1_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.146 Safari/537.36" etag="-Jwqxonnxu007DpEzQBT" version="14.4.2" type="github">
   <diagram id="bqIoz07S8d9AHL4Neplq" name="Page-1">
     <mxGraphModel dx="946" dy="472" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" background="none" math="0" shadow="0">
       <root>
@@ -681,6 +681,78 @@
         </mxCell>
         <mxCell id="Y_uLNHS-47ayWk9gK9-1-47" value="acceptor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="408" y="3774" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-55" value="希望：即使只有一个Proposer提出了一个value，该value也最终被选定" style="shape=card;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="152" y="3937" width="411" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-56" value="约束：一个Acceptor必须接受它收到的第一个提案" style="shape=card;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="151" y="4006" width="411" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-57" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#FFB570;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="356" y="4058" as="sourcePoint" />
+            <mxPoint x="356.5" y="4134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-58" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="151" y="4138" width="419" height="202" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-65" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="Y_uLNHS-47ayWk9gK9-1-59" target="Y_uLNHS-47ayWk9gK9-1-62">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-69" value="v1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_uLNHS-47ayWk9gK9-1-65">
+          <mxGeometry x="-0.1724" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-59" value="proposer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="189" y="4156" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-66" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="Y_uLNHS-47ayWk9gK9-1-60" target="Y_uLNHS-47ayWk9gK9-1-63">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-70" value="v2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_uLNHS-47ayWk9gK9-1-66">
+          <mxGeometry x="-0.2258" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-60" value="proposer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="327" y="4154" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#FFB570;" edge="1" parent="1" source="Y_uLNHS-47ayWk9gK9-1-61" target="Y_uLNHS-47ayWk9gK9-1-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-71" value="v3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Y_uLNHS-47ayWk9gK9-1-67">
+          <mxGeometry x="-0.2903" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-61" value="proposer" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d0cee2;strokeColor=#56517e;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="465" y="4154" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-62" value="acceptor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="189" y="4243" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-63" value="acceptor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="327" y="4243" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-64" value="acceptor" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#fad7ac;strokeColor=#b46504;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="465" y="4243" width="58" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-68" value="不同的proposer分别提出不同的value" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="263" y="4309" width="213" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-72" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#FFB570;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="569.5" y="4235" as="sourcePoint" />
+            <mxPoint x="644.5" y="4235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-73" value="造成" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="574" y="4206" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Y_uLNHS-47ayWk9gK9-1-74" value="多个不同的value被选定" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="647" y="4138" width="28.5" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
