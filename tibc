@@ -1,76 +1,76 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T03:53:30.112Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="xWB3tnVINJz9RM51RDfS" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T09:39:30.714Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="MlCRkagnuPpBWHKVfbIW" version="14.9.0" type="github">
   <diagram id="3qSPewMjTslsrsSMnRCy" name="Page-1">
     <mxGraphModel dx="1002" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-1" value="cosmos-&amp;gt;eth" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-1" value="cosmos-&amp;gt;eth" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="280" y="60" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="40" y="210" width="240" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" edge="1" parent="1" source="OcgwTWLkV6VmAmbqUd69-5" target="OcgwTWLkV6VmAmbqUd69-9">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.008;entryY=0.372;entryDx=0;entryDy=0;entryPerimeter=0;fontStyle=1" parent="1" source="OcgwTWLkV6VmAmbqUd69-5" target="OcgwTWLkV6VmAmbqUd69-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-12" value="序列化作为跨链数据包的Args参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="OcgwTWLkV6VmAmbqUd69-11">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-12" value="序列化作为跨链数据包的Args参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="OcgwTWLkV6VmAmbqUd69-11" vertex="1" connectable="0">
           <mxGeometry x="-0.1588" y="2" relative="1" as="geometry">
             <mxPoint x="22" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-5" value="&lt;div&gt;args := types.TxArgs{&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;ToAssetHash: toChainAssetHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;ToAddress:&amp;nbsp; &amp;nbsp;toAddressBs,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Amount:&amp;nbsp; &amp;nbsp; &amp;nbsp; value.BigInt(),&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;&lt;div&gt;args.Serialization(sink, 32);&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-5" value="&lt;div&gt;args := types.TxArgs{&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;/span&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;ToAssetHash: toChainAssetHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;ToAddress:&amp;nbsp; &amp;nbsp;toAddressBs,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;Amount:&amp;nbsp; &amp;nbsp; &amp;nbsp; value.BigInt(),&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;}&lt;/div&gt;&lt;div&gt;args.Serialization(sink, 32);&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="45" y="210" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-7" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="510" y="200" width="230" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-9" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="500" y="200" width="240" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-10" value="&lt;div&gt;txParam := ccmc.MakeTxParam{&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;TxHash:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; txHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;CrossChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; crossChainIdBs,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;FromContractAddress: fromContractHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;ToChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;toChainId,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;ToContractAddress:&amp;nbsp; &amp;nbsp;toContractHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Method:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; method,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Args:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; args,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-10" value="&lt;div&gt;txParam := ccmc.MakeTxParam{&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;TxHash:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; txHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;CrossChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; crossChainIdBs,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;FromContractAddress: fromContractHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;ToChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;toChainId,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;ToContractAddress:&amp;nbsp; &amp;nbsp;toContractHash,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;Method:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; method,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;Args:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; args,&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="520" y="210" width="210" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-13" value="cosmos-poy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-13" value="cosmos-poy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="240" y="130" width="150" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="346" y="725" as="sourcePoint" />
             <mxPoint x="611" y="725" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-22" value="cosmosTx.pval作为extra" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OcgwTWLkV6VmAmbqUd69-19">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-22" value="cosmosTx.pval作为extra" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="OcgwTWLkV6VmAmbqUd69-19" vertex="1" connectable="0">
           <mxGeometry x="-0.1887" y="-1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="60" y="580" width="285" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-15" value="&lt;div&gt;&amp;amp;context.CosmosInfo{&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Type: context.TyTx,&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Tx: &amp;amp;context.CosmosTx{&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;Tx:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tx,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;ProofHeight: res.Response.Height,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;Proof:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;proof,&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;PVal:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pv,&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;},&lt;/div&gt;&lt;div&gt;&lt;span&gt;			&lt;/span&gt;Hdrs: []*cosmos.CosmosHeader{hdrToVerifyProof},&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;})&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-15" value="&lt;div&gt;&amp;amp;context.CosmosInfo{&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;Type: context.TyTx,&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;Tx: &amp;amp;context.CosmosTx{&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;Tx:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; tx,&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;ProofHeight: res.Response.Height,&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;Proof:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;proof,&lt;/div&gt;&lt;div&gt;&lt;span&gt;    &lt;/span&gt;PVal:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; pv,&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;},&lt;/div&gt;&lt;div&gt;&lt;span&gt;   &lt;/span&gt;Hdrs: []*cosmos.CosmosHeader{hdrToVerifyProof},&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;})&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="90" y="610" width="215" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-16" value="cosmos-realyer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-16" value="cosmos-realyer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="120" y="510" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="OcgwTWLkV6VmAmbqUd69-17" target="OcgwTWLkV6VmAmbqUd69-23">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="OcgwTWLkV6VmAmbqUd69-17" target="OcgwTWLkV6VmAmbqUd69-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-30" value="序列化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OcgwTWLkV6VmAmbqUd69-29">
-          <mxGeometry x="-0.4054" y="2" relative="1" as="geometry">
+        <mxCell id="4xBrqJAt0k18L_G5ol9b-1" value="序列化作为sink.bytes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OcgwTWLkV6VmAmbqUd69-29">
+          <mxGeometry x="-0.3081" y="6" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="610" y="580" width="285" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-18" value="&lt;div&gt;state := &amp;amp;nccmc.EntranceParam{&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;SourceChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sourceChainId,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Height:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; height,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Proof:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;proof,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;RelayerAddress:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; relayerAddress,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Extra:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;txData,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;HeaderOrCrossChainMsg: HeaderOrCrossChainMsg,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-18" value="&lt;div&gt;state := &amp;amp;nccmc.EntranceParam{&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;SourceChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sourceChainId,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;Height:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; height,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;Proof:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;proof,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;RelayerAddress:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; relayerAddress,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;Extra:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;txData,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;HeaderOrCrossChainMsg: HeaderOrCrossChainMsg,&lt;/div&gt;&lt;div&gt;&lt;span&gt; &lt;/span&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="640" y="610" width="215" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-23" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1080" y="580" width="285" height="290" as="geometry" />
         </mxCell>
-        <mxCell id="OcgwTWLkV6VmAmbqUd69-24" value="&lt;div&gt;this.native.NewNativeInvokeTransaction(&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;TX_VERSION,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;CrossChainManagerContractAddress,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;ccm.IMPORT_OUTER_TRANSFER_NAME,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;sink.Bytes())&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-24" value="&lt;div&gt;this.native.NewNativeInvokeTransaction(&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;TX_VERSION,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;CrossChainManagerContractAddress,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;ccm.IMPORT_OUTER_TRANSFER_NAME,&lt;/div&gt;&lt;div&gt;&lt;span&gt;  &lt;/span&gt;sink.Bytes())&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="1110" y="610" width="215" height="230" as="geometry" />
         </mxCell>
       </root>
