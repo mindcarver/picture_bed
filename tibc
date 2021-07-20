@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T09:42:47.959Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="3QBFkIaLAXUkzpzjO4-k" version="14.9.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T09:45:45.651Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="ZSe5TTj-uPsQQyA-5E_O" version="14.9.0" type="github">
   <diagram id="3qSPewMjTslsrsSMnRCy" name="Page-1">
     <mxGraphModel dx="1002" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -98,6 +98,9 @@
         </mxCell>
         <mxCell id="4xBrqJAt0k18L_G5ol9b-8" value="作为payload" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="1810" y="700" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4xBrqJAt0k18L_G5ol9b-10" value="构造出poly交易后发到poly上，调用poly客户端的sendrawtransaction去处理" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2230" y="640" width="180" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
