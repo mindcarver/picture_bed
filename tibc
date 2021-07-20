@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T03:23:16.139Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="izg1OjIvzewoesP2qkvH" version="14.8.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-20T03:31:12.511Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="q7TdWomEJ1DTKBTFkXVb" version="14.8.4" type="github">
   <diagram id="3qSPewMjTslsrsSMnRCy" name="Page-1">
     <mxGraphModel dx="1002" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="4681" math="0" shadow="0">
       <root>
@@ -33,6 +33,17 @@
         <mxCell id="OcgwTWLkV6VmAmbqUd69-13" value="cosmos-poy" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="240" y="130" width="150" height="20" as="geometry" />
         </mxCell>
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="346" y="725" as="sourcePoint" />
+            <mxPoint x="611" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-22" value="cosmosTx.pval作为extra" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="OcgwTWLkV6VmAmbqUd69-19">
+          <mxGeometry x="-0.1887" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="OcgwTWLkV6VmAmbqUd69-14" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="60" y="580" width="285" height="290" as="geometry" />
         </mxCell>
@@ -41,6 +52,12 @@
         </mxCell>
         <mxCell id="OcgwTWLkV6VmAmbqUd69-16" value="cosmos-realyer" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="120" y="510" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="610" y="580" width="285" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="OcgwTWLkV6VmAmbqUd69-18" value="&lt;div&gt;state := &amp;amp;nccmc.EntranceParam{&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;SourceChainID:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;sourceChainId,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Height:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; height,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Proof:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;proof,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;RelayerAddress:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; relayerAddress,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;Extra:&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;txData,&lt;/div&gt;&lt;div&gt;&lt;span&gt;		&lt;/span&gt;HeaderOrCrossChainMsg: HeaderOrCrossChainMsg,&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;}&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="640" y="610" width="215" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
